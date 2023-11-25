@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Cause</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheets -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="/script.js" defer></script>
+
+	  <!-- link the webpage's JavaScript file -->
+	  <script src="/script.js" defer></script>
+
+  </head>
+
+
+  <nav>
+    <ul>
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="about.html">About</a>
+      </li>
+    </ul>
+  </nav>
+
+  <body>
+    
+    <h1>GreenLab</h1>
+<div class="flex-container">
+  <div class="flex-item">
+
+    
+    <h2 style="background-color: #FFC7E2;">Impact of Chemicals</h2> 
+      <p>
+        Welcome to the heart of our exploration — the profound consequences of industrial chemical processes on the environment. In this section, we embark on a journey through real-world examples of pollution and ecological disruption caused by human activities. Together, we'll delve into the urgent need for sustainable practices that safeguard our planet's delicate ecosystems, striving for a future where industry and nature coexist harmoniously.
+      </p>
+
+    <h2 style="background-color: #FFC8C7;">Chemical Safety and Human Health</h2>
+      <p>
+        Join us as we unravel the complex relationship between chemicals and human health. Here, we navigate the intricate landscape of potential risks associated with exposure to harmful substances present in everyday products. Our goal is to empower you with knowledge, advocating for informed consumer choices and promoting alternatives that prioritize not only personal well-being but also the health of our shared environment.
+      </p>
+
+    <h2 style="background-color: #FFE4C7;">Accountability</h2>
+    <p>
+      Step behind the scenes into the corporate realm of chemical production. In this section, we unveil the practices of chemical companies, shedding light on instances of environmental harm and ethical lapses. Together, we call for increased corporate transparency, ethical conduct, and a steadfast commitment to sustainable business practices within the chemical industry.
+    </p>
+
+    <h2 style="background-color: #FEFFC7;">Chemical Waste and Recycling</h2>
+      <p>
+        Explore the critical domain of chemical waste disposal and recycling as we delve into the impact of irresponsible practices on communities and ecosystems. Here, we emphasize the importance of responsible recycling in mitigating the consequences of improper disposal. Join us on a journey toward a cleaner, more sustainable future.
+      </p>
+
+    <h2 style="background-color: #FEFFC7;">Advocacy for Safer Chemical Policies</h2>
+      <p>
+        Welcome to the forefront of advocacy for safer chemical policies. In this section, we navigate the intricate landscape of existing regulations, shedding light on their limitations. Together, we advocate for stronger policies that prioritize both environmental and public health, inviting you to join us in the call for meaningful regulatory changes.
+      </p>
+
+    <h2 style="background-color: #E2FFC7;">Community Empowerment</h2>
+      <p>
+        Step into a world of empowerment where communities take charge of their environmental well-being. Here, we showcase inspiring grassroots initiatives addressing chemical-related issues. Empowerment is the key, and we provide resources and guidance to foster resilience, encouraging communities to effect positive change from the ground up.
+      </p>
+
+    <h2 style="background-color: #C7FFF1;">Educational Resources</h2>
+      <p>
+        Unlock the wonders of chemistry with our educational resources designed for all curious minds. In this section, we present engaging infographics, insightful articles, and videos aimed at demystifying complex chemical concepts. Join us on a journey of discovery and understanding.
+      </p>
+
+    <h2 style="background-color: #C7F1FF;">Social Justice and Chemical Exposure </h2>
+      <p>
+        Enter the intersection of social justice and chemical exposure where we explore the disproportionate burden borne by marginalized communities. In this section, we advocate for environmental justice, calling for fair treatment and equal protection from chemical hazards for every community, regardless of socio-economic status. Together, let's strive for a world where justice is woven into the fabric of environmental responsibility.
+      </p>
+        
+  </div>
+</div>
+    
+  </body>
+</html>
