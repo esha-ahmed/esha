@@ -1,0 +1,276 @@
+/* STYLE SECTIONING TAGS */
+/* Reset the space of the webpage */
+*{ 
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: white;
+ font-family: 'Playfair Display', serif;
+ margin: 0;
+ padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay:hover {
+  display: block;
+}
+
+/* STYLE TEXT */
+h1 {
+  color: #c0779a;
+  background-color: #FFC7E2;
+  font-family: 'Playfair Display', serif;
+}
+
+h2 {
+  color: #000000;
+  text-align: center;
+  background-color: #FFC8C7;
+  font-family: 'Playfair Display', serif;
+
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-family: 'Playfair Display', serif;
+  }
+
+  
+p {
+  color: black;
+  width: 500px;
+  padding: 70px;
+  margin: 20px;
+  text-align: centre;
+  font-size: 10000px;
+  font-family: 'Playfair Display', serif;
+}
+
+  .card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .container1 {
+    position: relative;
+    display: inline-block;
+  }
+
+/* STYLE IMAGES */
+img {
+  max-width: 100%;
+  margin-right: -15px;
+  margin-bottom: 2em;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flex-item{
+  flex-basis: 100%;
+  margin: 1%;
+}
+
+  .container1 img {
+    width: 100%;
+    height: auto;
+  }
+
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  background-color: #FFC7F1;
+  overflow: hidden;
+  padding: 1em;
+}
+
+li {
+  display: inline;
+}
+
+li a{
+  text-decoration: none;
+  color: #FFC7F1;
+  font-size: 1.3em;
+  padding: 1em;
+}
+
+li a:hover{
+  background-color: #FFC7F1;
+  }
+  
+/* STYLE BUTTONS */
+#factBtn {
+  background: #D5C7FF;
+  border-style: none;
+  border-radius: 10px;
+
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+
+  color: #ffffff;
+  font-size: 1em;
+}
+
+#scriptBtn {
+  background: #000000;
+  border-style: none;
+  border-radius: 10px;
+
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-left: 35%;
+  margin-right: 35%;
+
+  color: #ffffff;
+  font-size: 1em;
+}
+  
+/* ADD MORE! */
+
+/* STYLE GENERATE A FACT KEY FEATURE */
+.genFact {
+  background: #F1C7FF;
+  border-radius: 10px;
+  border-style: none;
+
+  padding: 15px;
+
+  margin-top: 30px;
+  margin-left: 35%;
+  margin-right: 35%;
+
+  font-family: "Playfair Display", serif;
+  font-size: 0.9em;
+  text-align: center;
+  line-height: 1.2em;
+  color: #000000;
+  }
+
+#fact {
+  border-style: none;
+
+  padding: 15px;
+
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  font-family: "Playfair Display", serif;
+  font-size: 2em;
+  text-align: center;
+  line-height: 1.2em;
+  color: #C7D5FF;
+
+}
+
+/* STYLE PERSONALIZE IT KEY FEATURE  */
+  .scriptQues {
+    background: #D5C7FF;
+    border-radius: 10px;
+
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 0.9em;
+    color: #000000;
+  }
+
+  .scriptItem{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
+
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
+
+  input {
+    border-style: none;
+    border-radius: 5px;
+    width: 60%;
+  }
+
+  #scriptReturned {
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+
+    color: #FFFFFF;
+  }
+
+  
+/* STYLE MISC */
+  .resources {
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .resources li {
+    margin-bottom: 15px;
+  }
+  
+/*CHANGE CSS BASED ON SCREEN SIZE*/
+/*Breakpoint 1*/
+@media screen and (max-width: 850px){
+  .flex-container{
+    flex-wrap: wrap;
+  }
+
+  header {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  main { 
+    margin-left: 5%;
+    margin-right: 5%;          
+  }
+
+  .genFact, #fact {
+    margin-top: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  #fact {
+  font-size: 1.5em;
+  }
+
+}
