@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Cause</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheets -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="/script.js" defer></script>
+    
+    <!-- Add your Google fonts here -->
+    <link
+      href="https://fonts.google.com/specimen/Playfair+Display"
+      rel="stylesheet"
+    />
+
+  </head>
+
+
+  <nav>
+    <ul>
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="about.html">About</a>
+      </li>
+    </ul>
+  </nav>
+  
+  <body>
+    
+    <h1>GreenLab</h1>
+<div class="flex-container">
+  <div class="flex-item">
+      <img src="assets/vedrana-filipovic-jxqTaXF5WmY-unsplash.jpg" class="my-image">
+
+<style>
+  .my-image {
+    max-width: 100%;
+  }
+</style>
+
+    <p>
+      At GreenLab we believe in the tranformation powe of chemistry to shape a suitainable and ethical future. Our mission is to advocate for responsible practices, promote sustainable practices, and promote sustainable communities.
+      Join us on a journey where science meets coscience, and together, we can foster a world where chemistry becomes a catalyst for sustainable development.
+    </p>
+  </div>
+
+</div>
+    
+
+<div class="header">
+  <h2 style="background-color: #FFC8C7;">impact</h2>
+</div>
+
+<nav>   
+  <ul class="nav-bar">
+    <li class="nav-item"><a href="about.html">impact of chemical</a></li>
+    <li class="nav-item"><a href="about.html">chemical safety and human health</a></li>
+    <li class="nav-item"><a href="about.html">accountability</a></li>
+    <li class="nav-item"><a href="about.html">chemical waste and recycling</a></li>
+    <li class="nav-item"><a href="about.html">advocacy for safer chemical policies</a></li>
+    <li class="nav-item"><a href="about.html">community empowerment</a></li>
+    <li class="nav-item"><a href="about.html">social justice and chemical exposure</a></li>
+</nav>
+
+<div class="main">
+<!-- Add your main content here -->
+</div>
+      
+<script>
+  document.querySelectorAll('.nav a').forEach(function(link) {
+    link.addEventListener('click', function(event) {
+      event.preventDefault();
+      alert('You clicked ' + this.textContent);
+    });
+  });
+</script>
+
+    <div class="genFact">
+      <p>Click to learn something new.</p>
+      <button id="factBtn">FACTS</button>
+      <p>Then go share it.</p>
+    </div>
+
+    <p id="fact">PFAS are man-made chemicals that have been used in industry and consumer products worldwide since the 1940s. They have been used to make nonstick cookware, water-repellent clothing, stain resistant fabrics and carpets, some cosmetics, some firefighting foams, and products that resist grease, water, and oil.</p>
+
+  </body>
+</html>
